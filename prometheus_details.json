@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://github.com/prometheus-lua/Prometheus",
+    "name": "prometheus-lua/Prometheus: Lua Obfuscator written in",
+    "snippet": "Prometheus is a Lua obfuscator written in pure Lua . This Project was inspired by the amazing javascript-obfuscator. It can currently obfuscate Lua51 and Roblox ...",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/lua/comments/14yq9w8/how_to_make_lua_obfuscator",
+    "name": "how to make lua obfuscator",
+    "snippet": "Creating a Lua obfuscator involves transforming the source code of a Lua program into an equivalent , but more difficult-to-understand version.",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://levno-710.gitbook.io/prometheus/getting-started/obfuscating-your-first-script",
+    "name": "Obfuscating your first script - Prometheus - GitBook",
+    "snippet": "15 May 2022 — In this quick tutorial you are going to learn how to obfuscate your first file . Note that in the following command examples lua should be replaced by your lua ...",
+    "host_name": "levno-710.gitbook.io",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://jikz8aomz9lk2bhz8aoka8xzkbxu.neocities.org/promremake",
+    "name": "Lua 5.1 Obfuscator - Prometheus Style",
+    "snippet": "Click \"Obfuscate Code\" to see it in action. Lua 5.1 Obfuscator | Creates Prometheus-style obfuscated output | For educational purposes only.",
+    "host_name": "jikz8aomz9lk2bhz8aoka8xzkbxu.neocities.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://promon.io/resources/knowledge-center/code-obfuscation-techniques",
+    "name": "Obfuscation explained: A comprehensive guide to code",
+    "snippet": "23 Oct 2024 — This guide delves into the intricacies of code obfuscation , exploring its various techniques, best practices, and real-world applications.",
+    "host_name": "promon.io",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/BillChirico/LUA-Obfuscator/blob/main/README.md",
+    "name": "LUA-Obfuscator/README.md at main · BillChirico",
+    "snippet": "A production-ready, web-based Lua code obfuscation tool that protects Lua source code by transforming it into functionally equivalent but harder-to-read code.",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/720178709/direct-execute-loader",
+    "name": "Lua Code Obfuscation Techniques | PDF",
+    "snippet": "Local Code Execution Logic. PDF. No ratings yet · 77fuscator Code Analysis. PDF · Code Obfuscation Algorithm ...",
+    "host_name": "www.scribd.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/51276004/what-is-lua-obfuscation",
+    "name": "What is lua obfuscation?",
+    "snippet": "Obfuscation is like hiding the key to your door somewhere but is very difficult to find and reach. It all depends on how you make it.",
+    "host_name": "stackoverflow.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://levno-710.gitbook.io/prometheus",
+    "name": "Prometheus is an Lua Obfuscator, that is written in pure Lua.",
+    "snippet": "12 Dec 2022 — Prometheus is an Lua Obfuscator , that is written in pure Lua. Prometheus can obfuscate Lua51 as well as Roblox's LuaU, which is an optionally ...",
+    "host_name": "levno-710.gitbook.io",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@RosanaFS/read-team-obfuscation-principles-tryhackme-walkthrough-90b2cee7a4f7",
+    "name": "Red Team - Obfuscation Principles - TryHackMe Walkthrough",
+    "snippet": "Leverage tool-agnostic software obfuscation practices to hide malicious functions and create unique code .",
+    "host_name": "medium.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

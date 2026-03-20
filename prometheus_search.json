@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://github.com/prometheus-lua/Prometheus",
+    "name": "prometheus-lua/Prometheus: Lua Obfuscator written in",
+    "snippet": "Prometheus is a Lua obfuscator written in pure Lua. This Project was inspired by the amazing javascript-obfuscator. It can currently obfuscate Lua51 and Roblox ... Read more",
+    "host_name": "github.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/lua/comments/rufwj5/prometheus_an_open_source_lua_obfuscator_written",
+    "name": "Prometheus, an open source lua obfuscator, written in pure",
+    "snippet": "Prometheus , an open source lua obfuscator , written in pure Lua, capable of obfuscating Lua51 and Roblox's LuaU. Read more",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://levno-710.gitbook.io/prometheus/getting-started/obfuscating-your-first-script",
+    "name": "Obfuscating your first script - Prometheus - GitBook",
+    "snippet": "15 May 2022 — In this quick tutorial you are going to learn how to obfuscate your first file. Note that in the following command examples lua should be replaced by your lua ... Read more",
+    "host_name": "levno-710.gitbook.io",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.vmray.com/malware-obfuscation-techniques",
+    "name": "Obfuscation Techniques: Enhancing Security Measures",
+    "snippet": "15 Apr 2025 — This article looks at the technical details of malware obfuscation . It covers basic ideas, advanced strategies, detection methods , and ways to reduce risks. Read more",
+    "host_name": "www.vmray.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://zimperium.com/blog/top-7-source-code-obfuscation-techniques",
+    "name": "Top 7 Source Code Obfuscation Techniques",
+    "snippet": "5 Aug 2024 — Source code obfuscation tools use a variety of techniques to make code indecipherable to hackers so they cannot discover vulnerabilities, steal keys, data, or ... Read more",
+    "host_name": "zimperium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/prometheus-lua/Prometheus/issues/16",
+    "name": "Prometheus will not properly use the Strong preset #16",
+    "snippet": "16 Jan 2022 — When I try to use the -- preset Strong, it returns me with this output and provides no file: image. I'm not sure what may be causing this to ... Read more",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://jikz8aomz9lk2bhz8aoka8xzkbxu.neocities.org/promremake",
+    "name": "Lua 5.1 Obfuscator - Prometheus Style",
+    "snippet": "[System] Ready to obfuscate Lua 5.1 code. Paste your code in the input area. [05:00:00 PM] Lua 5.1 Obfuscator initialized. Read more",
+    "host_name": "jikz8aomz9lk2bhz8aoka8xzkbxu.neocities.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/51276004/what-is-lua-obfuscation",
+    "name": "What is lua obfuscation?",
+    "snippet": "Obfuscation is like hiding the key to your door somewhere but is very difficult to find and reach. It all depends on how you make it. Read more",
+    "host_name": "stackoverflow.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forum.defold.com/t/is-there-way-to-obfuscation-lua-code-that-is-published-with-the-game/74236",
+    "name": "Is there way to obfuscation lua code that is published with",
+    "snippet": "25 Sept 2023 — I'm not sure how the native engine handles Lua code; I guess it parses it at runtime. This leads me to the question: are there ways to obfuscate  Lua code and ... Read more",
+    "host_name": "forum.defold.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://levno-710.gitbook.io/prometheus",
+    "name": "Prometheus is an Lua Obfuscator, that is written in pure Lua.",
+    "snippet": "12 Dec 2022 — Prometheus can obfuscate Lua51 as well as Roblox's LuaU, which is an optionally typed superset of Lua51. View Prometheus on github . Read more",
+    "host_name": "levno-710.gitbook.io",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><meta name=\"color-scheme\" content=\"light dark\"></head><body><pre style=\"word-wrap: break-word; white-space: pre-wrap;\">-- This Script is Part of the Prometheus Obfuscator by Levno_710\n--\n-- prometheus.lua\n-- This file is the entrypoint for Prometheus\n\n-- Configure package.path for require\nlocal function script_path()\n\tlocal str = debug.getinfo(2, \"S\").source:sub(2)\n\treturn str:match(\"(.*[/%\\\\])\")\nend\n\nlocal oldPkgPath = package.path;\npackage.path = script_path() .. \"?.lua;\" .. package.path;\n\n-- Math.random Fix for Lua5.1\n-- Check if fix is needed\nif not pcall(function()\n    return math.random(1, 2^40);\nend) then\n    local oldMathRandom = math.random;\n    math.random = function(a, b)\n        if not a and b then\n            return oldMathRandom();\n        end\n        if not b then\n            return math.random(1, a);\n        end\n        if a > b then\n            a, b = b, a;\n        end\n        local diff = b - a;\n        assert(diff >= 0);\n        if diff > 2 ^ 31 - 1 then\n            return math.floor(oldMathRandom() * diff + a);\n        else\n            return oldMathRandom(a, b);\n        end\n    end\nend\n\n-- newproxy polyfill\n_G.newproxy = _G.newproxy or function(arg)\n    if arg then\n        return setmetatable({}, {});\n    end\n    return {};\nend\n\n\n-- Require Prometheus Submodules\nlocal Pipeline  = require(\"prometheus.pipeline\");\nlocal highlight = require(\"highlightlua\");\nlocal colors    = require(\"colors\");\nlocal Logger    = require(\"logger\");\nlocal Presets   = require(\"presets\");\nlocal Config    = require(\"config\");\nlocal util      = require(\"prometheus.util\");\n\n-- Restore package.path\npackage.path = oldPkgPath;\n\n-- Export\nreturn {\n    Pipeline  = Pipeline;\n    colors    = colors;\n    Config    = util.readonly(Config); -- Readonly\n    Logger    = Logger;\n    highlight = highlight;\n    Presets   = Presets;\n}\n\n</pre></body></html>",
+    "title": "",
+    "url": "https://raw.githubusercontent.com/prometheus-lua/Prometheus/main/src/prometheus.lua",
+    "usage": {
+      "tokens": 482
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 482
+    }
+  },
+  "status": 20000
+}
